@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>后端</title>
+		<style>
+			.main {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 80vh;
+				flex-direction: column;
+			}
+			.title {
+				font-size: 40px;
+			}
+			.subTitle {
+				margin-top: 30px;
+				margin-bottom: 20vh;
+				font-size: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="title">这里是郑州轻工业大学打卡脚本后端</div>
+			<div class="subTitle">用于提供通知服务</div>
+			<div onclick="goToGithub()" style="cursor: pointer">访问仓库</div>
+		</div>
+		<script>
+			function goToGithub() {
+				window.location = "https://github.com/billionray/zzuli-healthreport"
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>打卡通知</title>
+	</head>
+	<body style="margin: 0">
+		<div class="main" style="background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); display: flex; justify-content: flex-start; align-items: center; flex-direction: column; height: 100vh">
+			<div id="state_" style="color: <%= color_ %>; font-size: 4rem; font-weight: 600; margin-bottom: 13rem; margin-top: 15rem"><%= state_ %></div>
+			<div id="title_ " style="font-size: 1.7rem; font-weight: 600; margin-bottom: 1rem; color: #374151"><%= title_ %></div>
+			<div id="subTitle_" style="color: #9ca3af; text-align: center"><%= subTitle_ %></div>
+			<div id="weather_" style="color: #9ca3af; text-align: center; margin-bottom: 4rem"><%= weather_ %></div>
+			<a id="button_" href="https://msg.zzuli.edu.cn/xsc/log?type=0&code=<%= history_ %>" style="background-color: #6a70e3; color: aliceblue; border: none; border-radius: 99rem; padding: 0.8rem 1.5rem; font-size: 1.2rem; font-weight: 400; cursor: pointer; text-decoration: none">查看打卡历史记录</a>
+		</div>
+	</body>
+</html>
